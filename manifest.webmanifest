@@ -1,0 +1,49 @@
+{
+  "name": "SkyFinder — Point your phone at the sky",
+  "short_name": "SkyFinder",
+  "description": "Point your phone at the sky and discover what you're looking at — stars, constellations, planets, the Moon, aircraft, satellites and the ISS.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#04060d",
+  "theme_color": "#04060d",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["education", "utilities", "travel"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "What it finds",
+      "short_name": "What it finds",
+      "url": "./#identify",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Pricing",
+      "short_name": "Pricing",
+      "url": "./#pricing",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}
